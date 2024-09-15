@@ -1,5 +1,6 @@
-from src.vacancy import Vacancy
 from typing import List
+
+from src.vacancy import Vacancy
 
 
 def vacancy_to_dict(vacancies: List[Vacancy]) -> list:
@@ -20,6 +21,7 @@ def vacancy_to_dict(vacancies: List[Vacancy]) -> list:
 
 
 def filter_vacancy(vacancies: List[Vacancy], n: int) -> List[Vacancy]:
-    """Функция принимает список вакансий и количество возвращаемых вакансий, и возвращает список, отфильтрованный по минимальной зарплате"""
+    """Функция принимает список вакансий и количество возвращаемых вакансий, и возвращает список, отфильтрованный
+    по минимальной зарплате"""
     sorted_vacancies = sorted(vacancies, key=lambda x: x.salary_from, reverse=True)
     return sorted_vacancies[:n]

@@ -1,6 +1,7 @@
+from unittest.mock import Mock, patch
+
+
 from src.head_hunter_api import HeadHunterAPI
-from unittest.mock import patch, Mock
-import pytest
 
 
 def test_get_status_success():

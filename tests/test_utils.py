@@ -1,5 +1,5 @@
-from src.vacancy import Vacancy
 from src.utils import filter_vacancy
+from src.vacancy import Vacancy
 
 
 def test_filter_vacancy(vacancy_data):

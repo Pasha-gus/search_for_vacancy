@@ -1,5 +1,6 @@
-from src.base_api import BaseAPI
 import requests
+
+from src.base_api import BaseAPI
 
 
 class HeadHunterAPI(BaseAPI):

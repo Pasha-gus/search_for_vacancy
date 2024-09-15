@@ -1,5 +1,6 @@
-from src.vacancy import Vacancy
 import json
+
+from src.vacancy import Vacancy
 
 
 def test_add_vacancy(vac_storage):

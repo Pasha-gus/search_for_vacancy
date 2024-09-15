@@ -1,4 +1,5 @@
 import pytest
+
 from src.vacanciec_storage import VacancyStorageJson
 
 
@@ -18,7 +19,8 @@ def vacancy_data():
             "alternate_url": "http://example.com/1",
             "salary": {"from": 9000000, "to": 0, "currency": "UZS"},
             "snippet": {
-                "requirement": "Опыт работы во frontend-разработке от 3-х лет. Хорошие знания CSS3/Sass, HTML5, Bootstrap 5, Tailwind; Typescript."
+                "requirement": "Опыт работы во frontend-разработке от 3-х лет. Хорошие знания CSS3/Sass, HTML5, "
+                               "Bootstrap 5, Tailwind; Typescript."
             },
             "area": {"name": "Ташкент"},
         },
@@ -28,7 +30,8 @@ def vacancy_data():
             "alternate_url": "http://example.com/2",
             "salary": {"from": 300000, "to": 0, "currency": "RUR"},
             "snippet": {
-                "requirement": "Отличные знания JavaScript. Опыт работы с React от 3х лет. Опыт работы с Typescript, Redux."
+                "requirement": "Отличные знания JavaScript. Опыт работы с React от 3х лет. Опыт работы с "
+                               "Typescript, Redux."
             },
             "area": {"name": "Москва"},
         },
@@ -38,7 +41,9 @@ def vacancy_data():
             "alternate_url": "http://example.com/3",
             "salary": {"from": 250000, "to": 0, "currency": "RUR"},
             "snippet": {
-                "requirement": "Опыт разработки веб и мобильных приложений на React, опыт в Webapp. Продвинутое владение TypeScript. Понимание и опыт применения современных архитектурных..."
+                "requirement": "Опыт разработки веб и мобильных приложений на React, опыт в Webapp. "
+                               "Продвинутое владение TypeScript. Понимание и опыт применения современных "
+                               "архитектурных..."
             },
             "area": {"name": "Москва"},
         },
@@ -48,7 +53,8 @@ def vacancy_data():
             "alternate_url": "http://example.com/4",
             "salary": {"from": 180000, "to": 260000, "currency": "RUR"},
             "snippet": {
-                "requirement": "Хорошее знание JavaScript и TypeScript (мы используем TypeScript + JSX). Понимание базовых frontend-технологий..."
+                "requirement": "Хорошее знание JavaScript и TypeScript (мы используем TypeScript + JSX). "
+                               "Понимание базовых frontend-технологий..."
             },
             "area": {"name": "Москва"},
         },

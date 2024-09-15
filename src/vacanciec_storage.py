@@ -1,9 +1,10 @@
-from src.base_vacansiec_storage import VacancyStorage
-import os
 import json
-from src.vacancy import Vacancy
-from src.utils import vacancy_to_dict
+import os
 from typing import List
+
+from src.base_vacansiec_storage import VacancyStorage
+from src.utils import vacancy_to_dict
+from src.vacancy import Vacancy
 
 
 class VacancyStorageJson(VacancyStorage):

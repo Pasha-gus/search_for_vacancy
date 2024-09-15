@@ -1,8 +1,6 @@
-from src.vacancy import Vacancy
 import pytest
 
 from src.vacancy import Vacancy
-import pytest
 
 
 def test_valid_vacancy_creation():
