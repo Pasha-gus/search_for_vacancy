@@ -1,7 +1,7 @@
 from src.head_hunter_api import HeadHunterAPI
-from src.vacancy import Vacancy
-from src.vacanciec_storage import VacancyStorageJson
 from src.utils import filter_vacancy
+from src.vacanciec_storage import VacancyStorageJson
+from src.vacancy import Vacancy
 
 
 def main():
